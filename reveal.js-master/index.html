@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.vegas{
+				font-size: 24px
+			}
+			.git{
+				object-fit: contain;
+				height: 250px;
+			}
+			.commits{
+				margin-bottom: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h4>Team: Half-mugles</h4>
+					<img src="../start.png" alt="apps screen">
+				</section>
+				<section>
+					<p class="vegas" >У нас было 2 года опыта на всех участников команды вместе взятых, 75 сообщений в чате к моменту старта первого спринта, 
+						5 вариантов того кто как и что будет делать, <span style="text-decoration: line-through;">полсолонки соли</span> и бесконечное количество энтузиазма всех сортов и расцветок, 
+						а также ts, scss, webpack, ES6 с его классами и платный аккаунт git. Не то чтобы это был необходимый запас для финального таска, 
+						но раз уж начали, сложно остановиться…</p>
+					<img src="../vegas.jpeg" alt="how we start">
+				</section>
+				<section class="flex" >
+						<h6>Сложности</h6>
+						<ul>
+							<li>Занятость</li>
+							<li>Не-экспертность</li>
+							<li>Свобода выбора</li>
+						</ul>
+				</section>
+				<section><h6>Коммуникация и организация</h6>
+					<ul>
+						<li>Discord</li>
+						<li>Jira</li>
+						<li>Созвоны</li>
+					</ul></section>
+				<section>
+					<p class="vegas">Тут должен был быть скрин спора, но я передумала</p>
+					<img src="../deal.jpeg" alt="so that...">
+				</section>
+				<section>
+					<h6>Распределение задач по jira</h6>
+					<img src="../tasks.png" alt="tasks realization">
+				</section>
+				<section>
+					<h6>Примеры задач</h6>
+					<img src="../tasksView.png" alt="tasks examples">
+				</section>
+				<section>
+					<img src="../detective.png" alt="detectives chat">
+				</section>
+				<section>
+					<img src="../test.jpeg" alt="testing" style="height: 75vh;">
+				</section>
+				<section>
+					<h6> Техническая часть</h6>
+					<img src="../readme1.png" alt="readme1">
+				</section>
+				<section>
+					<img src="../readme2.png" alt="readme2">
+				</section>
+				<section>
+					<h6>Сложности адаптации</h6>
+					<img src="../javascript.jpeg" alt="javascript">
+				</section>
+				<section class="commits-wrap">
+					<h6>280 коммитов</h6>
+					<h6>30 веток (но это не точно)</h6>
+					<img class="git" src="../git.jpeg" alt="git">
+				</section>
+				<section>
+					<img src="../commits.png" alt="commits">
+				</section>
+				<section><img src="../this-is-fine.png" alt="deadline" style="height: 75vh;"></section>
+				<section>
+					<img src="../PR.png" alt="pullrequest" style="height: 75vh;" >
+				</section>
+				<section>
+					<h6>Code rewiew</h6>
+					<img src="../kot-review.png" alt="kot-review" style="height: 450px" >
+				</section>
+				<section>
+					<img src="../refactoring.png" alt="refactoring">
+				</section>
+				<section>
+					<img src="../resume-v-google.jpg" alt="resume-v-google">
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
